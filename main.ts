@@ -1,6 +1,12 @@
 input.onButtonPressed(Button.A, function () {
     matrix.drawBitmap(
-    [0, 1],
+    [
+    0,
+    1,
+    0,
+    1,
+    1
+    ],
     0,
     0,
     8,
